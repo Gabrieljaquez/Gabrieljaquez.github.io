@@ -1,0 +1,31 @@
+let img;
+let offset = 0;
+let easing = 0.05;
+function setup() {
+  // put setup code here
+  createCanvas(650, 650);
+  background(242, 236, 243);
+  img = loadImage('DRFLAG.jpeg')
+}
+
+function draw() {
+  // put drawing code here
+  image(img, 0, 0);
+let dx = mouseX - img.width / 2 - offset;
+offset += dx * easing;
+tint(255, 127);
+image(img, offset, 0);
+
+/*
+rect(0, 0, 288, 290);
+fill('#3D1CFF');
+
+rect(374, 350, 278, 310);
+fill('#F00C01');
+
+rect(368, 0, 285, 290);
+fill('#F00C01');
+
+rect(0, 350, 288, 310);
+fill('#3D1CFF');
+*/}
