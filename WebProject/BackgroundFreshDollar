@@ -1,0 +1,33 @@
+<html>
+
+
+                  <head>
+
+                          <title>First Page-FreshDollar</title>
+                          <style>
+                            body {background-image: url("FreshDollar.jpg");
+                            background-color: red;
+                          }
+
+                          </style>
+
+                  </head>
+                  <body>
+
+                          <h1>Art by Gabriel Jaquez</h1>
+                          <p>                                       </p>
+
+
+
+
+
+                          <img src="">
+
+
+
+                  </body>
+
+
+
+
+</html>
